@@ -42,9 +42,9 @@ If you use other reference genome other than hg19, please use our script to gene
 $ ForestQC compute_gc -i [ref_genome.fasta] -o [output_file]
 ```
 
-First, we need to calculate ths statistics from vcf file. *It will output a file containing all statistics information for each variant.* **Note:**
+First, we need to calculate this statistics from vcf file. *It will output a file containing all statistics information for each variant.* **Note:**
  - **It is highly recommended to calculate the statistics for different regions of the genome at the same time, which can make this procedure much faster**
- - The vcf file should have the information of each individual on eahc site
+ - The vcf file should have the information of each individual on each site
  - You don't have to merge all vcf files together
  - If no discordant genotype file provided, the number of discordant genotype of all variants will be NA
  - If no pedigree file provided, the mendel errors of all variants will be NA
